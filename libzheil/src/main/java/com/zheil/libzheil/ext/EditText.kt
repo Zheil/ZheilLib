@@ -20,3 +20,7 @@ fun EditText.ifFocusElse(onHasFocus: () -> Unit, onNotFocus: () -> Unit) {
         }
     }
 }
+
+fun EditText.clearText() {
+    this.text.clear()
+}
